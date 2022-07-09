@@ -1,67 +1,136 @@
-*{
- padding: 0;
- margin:0;
- box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-html{
-    height: 100vh;
-    width: 100vw;
-    font-size: 62.5%;
-    /* 1em = 10px */
-    font-family: 'Courier New', Courier, monospace;
+html {
+  height: 100vh;
+  width: 100vw;
+  font-size: 62.5%;
+  /* 1em = 10px */
+  font-family: "Courier New", Courier, monospace;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
-body{
-    height: inherit;
-    width: inherit;
+body {
+  height: inherit;
+  width: inherit;
+  background-color: rgb(80, 116, 137);
 }
+/* So...This you see here is your typical */
+/* Beginner way of styling... It works */
+/* And its what we call: Unresponsive */
+/* As in: It only looks good on web full screen */
 
-.header{
-background-color: rgb(92, 92, 35);
-height: 60vh;
+/* .header {
+  background-color: #bab8b8d2;
+  height: 60vh;
+  position: relative;
 }
-.selfIntro{
-    margin-top: 30%;
-    text-align: center;
-    font-size: 4.3em;
+.about {
+  height: 80%;
+  background-color: #f7f7f7;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
-.slogan{
-    text-align: center;
-    font-size: medium;
+.selfIntro {
+  text-align: center;
+  font-size: 4.3em;
+  margin-top: 10vh;
 }
-.contact{
-    text-align: center;
-    font-size: large;
-    display: block;
-    text-decoration: none;
+.slogan {
+  margin-top: 5%;
+  text-align: center;
+  font-size: medium;
+  margin-bottom: 5%;
+}
+.contact {
+  text-align: center;
+  font-size: large;
+  margin-left: 47vw;
+  background-color: aliceblue;
+  text-decoration: none;
 }
 .profile-image {
-    border-radius: 50%;
-    width: 20rem;
-    position: relative;
-    left: 50%;
-    top: 20%
+  border-radius: 50%;
+  width: 15rem;
+  margin-top: -7.5em;
+  margin-left: 45vw;
+} */
+
+/* A better way to style this, would be as follow: */
+
+.header {
+  background-color: #bab8b8d2;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.profile-image {
+  border-radius: 50%;
+  width: 15rem;
 }
 
 .about {
-    height: 70%;
-    background-color: rgb(35, 61, 118);
+  height: 80%;
+  background-color: #f7f7f7;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+  position: relative;
 }
+
+.selfIntro {
+  text-align: center;
+  font-size: 4.3em;
+}
+.slogan {
+  text-align: center;
+  font-size: medium;
+}
+.contact {
+  text-align: center;
+  font-size: large;
+  text-decoration: none;
+  border: solid 2px rgb(139, 68, 68);
+  padding: 0.5em;
+  border-radius: 30px;
+  width: 10em;
+}
+.span {
+  color: rgb(139, 68, 68);
+}
+.profile-image {
+  border-radius: 50%;
+  width: 15rem;
+  position: absolute;
+  top: -17.5%;
+}
+
+/* Random stuff */
 .list {
-    color:blue
+  color: blue;
 }
 .tables {
-    width: 100%;
-    border: 1px solid black;
-
+  width: 100%;
+  border: 1px solid black;
 }
-.names{
-    color:aqua;
-}
-
-.contact{
-    color:blue;
+.names {
+  color: aqua;
 }
 
-.country{
-    color:blueviolet;
+.contact {
+  color: blue;
+}
+
+.country {
+  color: blueviolet;
 }
