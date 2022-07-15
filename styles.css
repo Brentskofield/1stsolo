@@ -17,52 +17,6 @@ body {
   width: inherit;
   background-color: rgb(80, 116, 137);
 }
-/* So...This you see here is your typical */
-/* Beginner way of styling... It works */
-/* And its what we call: Unresponsive */
-/* As in: It only looks good on web full screen */
-
-/* .header {
-  background-color: #bab8b8d2;
-  height: 60vh;
-  position: relative;
-}
-.about {
-  height: 80%;
-  background-color: #f7f7f7;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-}
-.selfIntro {
-  text-align: center;
-  font-size: 4.3em;
-  margin-top: 10vh;
-}
-.slogan {
-  margin-top: 5%;
-  text-align: center;
-  font-size: medium;
-  margin-bottom: 5%;
-}
-.contact {
-  text-align: center;
-  font-size: large;
-  margin-left: 47vw;
-  background-color: aliceblue;
-  text-decoration: none;
-}
-.profile-image {
-  border-radius: 50%;
-  width: 15rem;
-  margin-top: -7.5em;
-  margin-left: 45vw;
-} 
-
-/* A better way to style this, would be as follow: */
-main {
-  text-align: center;
-}
 
 .header {
   background-color: #bab8b8d2;
@@ -72,11 +26,15 @@ main {
   justify-content: flex-end;
   align-items: center;
 }
-
 .profile-image {
   border-radius: 50%;
   width: 15rem;
 }
+
+main {
+  text-align: center;
+}
+
 
 .about {
   height: 80%;
